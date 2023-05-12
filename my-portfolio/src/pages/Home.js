@@ -12,6 +12,9 @@ const Home = () => {
         <li>
           <Link to="/Contect">contect</Link>
         </li>
+        <li>
+          <Link to="/Projects">projects</Link>
+        </li>
       </ul>
     </div>
   );
