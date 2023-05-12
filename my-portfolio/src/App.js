@@ -1,25 +1,14 @@
-import React, {Component} from 'react'
-import styled from 'styled-components'
+import { Component } from 'react';
+import StyleComponent from './StyleComponent'
 
 class App extends Component {
-  render(){
+  render() {
     return (
       <div>
-        <Homebutton/>
+        <StyleComponent/>
       </div>
-        
-      
     )
   }
 }
-
-const Homebutton = styled.button`
-    border-radius: 50px;
-    padding: 5px;
-    min-width: 45px;
-    color: black;
-    font-weight: 600;
-    cursor: pointer;
-`
 
 export default App;
