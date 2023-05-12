@@ -1,14 +1,11 @@
-import { Component } from 'react';
-import StyleComponent from './component/StyleComponent'
+import PortfolioFrame from "./components/PortfolioFrame";
 
-class App extends Component {
-  render() {
-    return (
-      <div>
-        <StyleComponent/>
-      </div>
-    );
-  };
-};
+const App = () => {
+  return (
+    <PortfolioFrame></PortfolioFrame>
+  )
+
+    
+}
 
 export default App;
