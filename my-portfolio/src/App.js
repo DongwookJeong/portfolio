@@ -1,5 +1,5 @@
 import { Component } from 'react';
-import StyleComponent from './StyleComponent'
+import StyleComponent from './component/StyleComponent'
 
 class App extends Component {
   render() {
@@ -7,8 +7,8 @@ class App extends Component {
       <div>
         <StyleComponent/>
       </div>
-    )
-  }
-}
+    );
+  };
+};
 
 export default App;
