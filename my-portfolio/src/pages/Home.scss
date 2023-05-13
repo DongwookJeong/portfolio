@@ -1,0 +1,45 @@
+// ! palette
+$main: #fcd201;
+$sub: #3359ad;
+$base: #8795a8;
+.Home {
+  width: 100px;
+  display: flex;
+  justify-content: center;
+  padding: 10px;
+}
+.Whm {
+  display: flex;
+  height: 40vh;
+  justify-content: space-evenly;
+  align-items: center;
+  padding: 50px;
+}
+.WhmPfc {
+  width: 240px;
+  height: 280px;
+}
+.WhmUl {
+  margin: 0;
+  padding: 0;
+  height: 15vh;
+  font-size: 2rem;
+  list-style: none;
+}
+.WhmList {
+  display: flex;
+  justify-content: space-evenly;
+}
+.WhmLink {
+  display: flex;
+  padding: 2vw;
+  text-decoration: none;
+  align-items: center;
+  text-align: center;
+}
+.WhmListP {
+  font-size: 1rem;
+  text-align: center;
+  display: flex;
+  align-items: center;
+}
