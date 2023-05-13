@@ -7,9 +7,9 @@ export const me = {
     detail: "자세한 소개소개",
     github: "https://github.com/DongwookJeong",
     email: "nolhoon211@gmail.com",
-    pj1: "https://github.com/DongwookJeong",
-    pj2: "https://github.com/DongwookJeong/portfolio/commit/cc6a6da839e3d6c3188b4024b8c59c25112dbe21",
-    pj3: "https://github.com/DongwookJeong",
+    1: "https://github.com/DongwookJeong",
+    2: "https://github.com/DongwookJeong/portfolio/commit/cc6a6da839e3d6c3188b4024b8c59c25112dbe21",
+    3: "https://github.com/DongwookJeong",
   },
 };
 export const About = () => {
