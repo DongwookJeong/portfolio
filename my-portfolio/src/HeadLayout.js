@@ -59,9 +59,10 @@ const HeadLayout = () => {
           ></div>
         </button>
       </header>
-      <main>
+      <main style={{ height: "90vh" }}>
         <Outlet />
       </main>
+      <footer style={{ background: "#8795A8", height: "8vh" }}></footer>
     </div>
   );
 };
