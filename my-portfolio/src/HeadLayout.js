@@ -14,7 +14,12 @@ const HeadLayout = () => {
 
   return (
     <div>
-      <header style={{ background: "#f9f9f9", display: "flex" }}>
+      <header
+        style={{
+          background: "linear-gradient(#3359AD,#fcd201 90%)",
+          display: "flex",
+        }}
+      >
         <button
           onClick={comeBackhome}
           style={{
@@ -22,7 +27,7 @@ const HeadLayout = () => {
             justifyContent: "center",
             flexDirection: "column",
             alignItems: "center",
-            background: "#f9f9f9",
+            background: "none",
             border: "hidden",
             margin: "1rem",
           }}
@@ -62,7 +67,13 @@ const HeadLayout = () => {
       <main style={{ height: "90vh" }}>
         <Outlet />
       </main>
-      <footer style={{ background: "#8795A8", height: "8vh" }}></footer>
+
+      <footer
+        style={{
+          background: "linear-gradient(#fcd201 , #8795A8 50%)",
+          height: "8vh",
+        }}
+      ></footer>
     </div>
   );
 };

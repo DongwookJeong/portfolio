@@ -1,32 +1,19 @@
-import { useParams } from "react-router-dom";
+import Warehouse from "../Warehouse";
 
-export const me = {
-  dongwook: {
-    name: "정동욱",
-    description: "간략 소개소개",
-    detail: "자세한 소개소개",
-    github: "https://github.com/DongwookJeong",
-    email: "nolhoon211@gmail.com",
-    pj1: "https://github.com/DongwookJeong",
-    pj2: "https://github.com/DongwookJeong/portfolio/commit/cc6a6da839e3d6c3188b4024b8c59c25112dbe21",
-    pj3: "https://github.com/DongwookJeong",
-  },
-};
-export const About = () => {
-  const params = useParams();
-  const about = me[params.username];
-
+const About = () => {
   return (
     <div>
       <h1>about</h1>
       <div>
-        <h2>{about.name}</h2>
-        <p>{about.detail}</p>
+        <h2>{Warehouse.dongwook.name}</h2>
+        <p>{Warehouse.dongwook.detail}</p>
         <ul>
-          <li>{about.github}</li>
-          <li>{about.email}</li>
+          <li>{Warehouse.dongwook.birth}</li>
+          <li>{Warehouse.dongwook.residence}</li>
         </ul>
       </div>
     </div>
   );
 };
+
+export default About;

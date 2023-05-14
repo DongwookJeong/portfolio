@@ -1,11 +1,11 @@
-import { me } from "./About";
+import Warehouse from "../Warehouse";
 
 const Contect = () => {
   return (
     <div>
       <h1>contect</h1>
-      <p>{me.dongwook.github}</p>
-      <p>{me.dongwook.email}</p>
+      <p>{Warehouse.dongwook.github}</p>
+      <p>{Warehouse.dongwook.email}</p>
     </div>
   );
 };

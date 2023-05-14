@@ -19,7 +19,8 @@ $base: #8795a8;
   width: 15vw;
   display: flex;
   justify-content: center;
-  padding: 10px;
+  padding: 50px;
+  font-size: 4rem;
 }
 .Whm {
   display: flex;
@@ -30,13 +31,17 @@ $base: #8795a8;
   flex-wrap: wrap;
 }
 .WhmPfc {
-  width: 430px;
+  @media only screen and (max-width: 550px) {
+    @include width-height(97vh, 97vw);
+  }
+  width: 550px;
   height: 550px;
+  border-radius: 300px;
 }
 .WhmUl {
   margin: 0;
   padding: 0;
-  height: 15vh;
+  height: 20vh;
   font-size: 2rem;
   list-style: none;
 }

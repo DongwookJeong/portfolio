@@ -1,20 +1,20 @@
 import { Link } from "react-router-dom";
-import { me } from "./About";
 import React from "react";
-import Mountain from "/Users/jactor/portfolio/portfolio/my-portfolio/src/img/mountain_apple.png";
+import proflie from "/Users/jactor/portfolio/portfolio/my-portfolio/src/img/IMG_0748.jpg";
 import "/Users/jactor/portfolio/portfolio/my-portfolio/src/pages/Home.scss";
+import Warehouse from "../Warehouse";
 const Home = () => {
   return (
     <div>
       <h1 className="Home">home</h1>
       <di className="Whm">
-        <img className="WhmPfc" alt="mountain_apple.png" src={Mountain} />
+        <img className="WhmPfc" alt="IMG_0748.jpg" src={proflie} />
         <ul className="WhmUl">
           <li className="WhmList">
-            <Link className="WhmLink" to="/abouts/dongwook">
+            <Link className="WhmLink" to="/about">
               about
             </Link>
-            <p className="WhmListP">{me.dongwook.description}</p>
+            <p className="WhmListP">{Warehouse.dongwook.description}</p>
           </li>
           <li className="WhmList">
             <Link className="WhmLink" to="/Contect">
