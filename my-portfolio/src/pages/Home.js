@@ -6,8 +6,8 @@ import Warehouse from "../Warehouse";
 const Home = () => {
   return (
     <div>
-      <h1 className="Home">home</h1>
-      <di className="Whm">
+      <h1 className="Home">Jactor</h1>
+      <div className="Whm">
         <img className="WhmPfc" alt="IMG_0748.jpg" src={proflie} />
         <ul className="WhmUl">
           <li className="WhmList">
@@ -29,7 +29,7 @@ const Home = () => {
             <p className="WhmListP">프로젝트이미지</p>
           </li>
         </ul>
-      </di>
+      </div>
     </div>
   );
 };

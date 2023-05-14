@@ -16,10 +16,11 @@ $base: #8795a8;
 }
 
 .Home {
-  width: 15vw;
+  margin: 0;
+  width: inherit;
   display: flex;
   justify-content: center;
-  padding: 50px;
+  align-items: center;
   font-size: 4rem;
 }
 .Whm {
@@ -41,13 +42,15 @@ $base: #8795a8;
 .WhmUl {
   margin: 0;
   padding: 0;
-  height: 20vh;
+  height: 30vh;
   font-size: 2rem;
   list-style: none;
+  justify-content: space-evenly;
 }
 .WhmList {
   display: flex;
   justify-content: space-evenly;
+  height: 30%;
 }
 .WhmLink {
   display: flex;
