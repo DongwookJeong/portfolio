@@ -16,7 +16,7 @@ const HeadLayout = () => {
     <div>
       <header
         style={{
-          background: "linear-gradient(#3359AD,#fcd201 90%)",
+          background: "none",
           display: "flex",
         }}
       >
@@ -70,7 +70,7 @@ const HeadLayout = () => {
 
       <footer
         style={{
-          background: "linear-gradient(#fcd201 , #8795A8 50%)",
+          background: "none",
           height: "8vh",
         }}
       ></footer>

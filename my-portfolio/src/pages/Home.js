@@ -5,7 +5,7 @@ import "/Users/jactor/portfolio/portfolio/my-portfolio/src/pages/Home.scss";
 import Warehouse from "../Warehouse";
 const Home = () => {
   return (
-    <div>
+    <div className="Mother">
       <h1 className="Home">Jactor</h1>
       <div className="Whm">
         <img className="WhmPfc" alt="IMG_0748.jpg" src={proflie} />
