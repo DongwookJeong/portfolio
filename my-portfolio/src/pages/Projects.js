@@ -1,17 +1,42 @@
 import { Link } from "react-router-dom";
+import styled from "styled-components";
+
+/*
+$main: #fcd201;
+$sub: #3359ad;
+$base: #8795a8;
+*/
+const ProjectMain = styled.ul`
+  background: #8795a8;
+  height: inherit;
+`;
+
+const ListStyle = styled.li`
+  list-style: none;
+`;
+
+const LinkStyle = {
+  textDecoration: "none",
+};
 const Projects = () => {
   return (
-    <ul>
-      <li>
-        <Link to="/projects/1">프로젝트 1</Link>
-      </li>
-      <li>
-        <Link to="/projects/2">프로젝트 2</Link>
-      </li>
-      <li>
-        <Link to="/projects/3">프로젝트 3</Link>
-      </li>
-    </ul>
+    <ProjectMain>
+      <ListStyle>
+        <Link style={LinkStyle} to="/projects/1">
+          PROJECT 1
+        </Link>
+      </ListStyle>
+      <ListStyle>
+        <Link style={LinkStyle} to="/projects/2">
+          PROJECT 2
+        </Link>
+      </ListStyle>
+      <ListStyle>
+        <Link style={LinkStyle} to="/projects/3">
+          PROJECT 3
+        </Link>
+      </ListStyle>
+    </ProjectMain>
   );
 };
 
