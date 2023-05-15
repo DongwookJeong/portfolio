@@ -4,6 +4,7 @@ import styled from "styled-components";
 $main: #fcd201;
 $sub: #3359ad;
 $base: #8795a8;
+add: #236144
 */
 
 const AboutMain = styled.div`

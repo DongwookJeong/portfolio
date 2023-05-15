@@ -49,7 +49,7 @@ const HeadLayout = () => {
             ></div>
             <div
               style={{
-                background: "#8795A8",
+                background: "#236144",
                 ...sameStyle,
                 marginLeft: "1rem",
               }}

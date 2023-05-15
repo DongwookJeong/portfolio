@@ -6,7 +6,7 @@ $main: #fcd201;
 $sub: #3359ad;
 $base: #8795a8;
 */
-const ProjectMain = styled.ul`
+const ProjectsMain = styled.ul`
   background: #8795a8;
   height: inherit;
 `;
@@ -20,7 +20,7 @@ const LinkStyle = {
 };
 const Projects = () => {
   return (
-    <ProjectMain>
+    <ProjectsMain>
       <ListStyle>
         <Link style={LinkStyle} to="/projects/1">
           PROJECT 1
@@ -36,7 +36,7 @@ const Projects = () => {
           PROJECT 3
         </Link>
       </ListStyle>
-    </ProjectMain>
+    </ProjectsMain>
   );
 };
 

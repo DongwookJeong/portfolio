@@ -1,12 +1,27 @@
 import Warehouse from "../Warehouse";
+import styled from "styled-components";
 
+const ContectMain = styled.div`
+  background: #00000;
+  text-align: center;
+  height: inherit;
+`;
+
+const Head = styled.h1`
+  margin: 0;
+  width: inherit;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 4rem;
+`;
 const Contect = () => {
   return (
-    <div>
-      <h1>contect</h1>
+    <ContectMain>
+      <Head>contect</Head>
       <p>{Warehouse.dongwook.github}</p>
       <p>{Warehouse.dongwook.email}</p>
-    </div>
+    </ContectMain>
   );
 };
 
