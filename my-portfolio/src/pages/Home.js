@@ -5,6 +5,7 @@ import "/Users/jactor/portfolio/portfolio/my-portfolio/src/pages/Home.scss";
 import phone from "/Users/jactor/portfolio/portfolio/my-portfolio/src/img/telephone_icon.png";
 import github from "/Users/jactor/portfolio/portfolio/my-portfolio/src/img/github_icon.png";
 import mail from "/Users/jactor/portfolio/portfolio/my-portfolio/src/img/mail_icon.png";
+
 const Home = () => {
   return (
     <div className="Mother">
