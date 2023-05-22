@@ -1,6 +1,6 @@
 import { Link } from "react-router-dom";
 import styled from "styled-components";
-
+import ProjectData from "../localdb/ProjectData.json";
 /*
 $main: #fcd201;
 $sub: #3359ad;
@@ -21,21 +21,13 @@ const LinkStyle = {
 const Projects = () => {
   return (
     <ProjectsMain>
-      <ListStyle>
-        <Link style={LinkStyle} to="/projects/1">
-          PROJECT 1
-        </Link>
-      </ListStyle>
-      <ListStyle>
-        <Link style={LinkStyle} to="/projects/2">
-          PROJECT 2
-        </Link>
-      </ListStyle>
-      <ListStyle>
-        <Link style={LinkStyle} to="/projects/3">
-          PROJECT 3
-        </Link>
-      </ListStyle>
+      {ProjectData.data.map((id) => (
+        <ListStyle key={id}>
+          <Link style={LinkStyle} to="/projects/1">
+            {id.title}
+          </Link>
+        </ListStyle>
+      ))}
     </ProjectsMain>
   );
 };
