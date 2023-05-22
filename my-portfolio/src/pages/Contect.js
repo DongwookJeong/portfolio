@@ -1,12 +1,13 @@
 import Warehouse from "../Warehouse";
 import styled from "styled-components";
 
+// contect page
 const ContectMain = styled.div`
   background: #00000;
   text-align: center;
   height: inherit;
 `;
-
+// title
 const Head = styled.h1`
   margin: 0;
   width: inherit;

@@ -15,11 +15,12 @@ $base: #8795a8;
   height: $height;
 }
 
+// home page background
 .Mother {
   background: #fcd201;
   height: inherit;
 }
-
+// nickname
 .Home {
   margin: 0;
   width: inherit;
@@ -28,6 +29,7 @@ $base: #8795a8;
   align-items: center;
   font-size: 4rem;
 }
+// content zone
 .Whm {
   display: flex;
   height: 70vh;
@@ -36,6 +38,7 @@ $base: #8795a8;
   padding: 50px;
   flex-wrap: wrap;
 }
+// profile photo
 .WhmPfc {
   @media only screen and (max-width: 550px) {
     @include width-height(97vh, 97vw);
@@ -44,6 +47,7 @@ $base: #8795a8;
   height: 550px;
   border-radius: 300px;
 }
+// category (about, contect, projects)
 .WhmUl {
   margin: 0;
   padding: 10px;
@@ -57,6 +61,7 @@ $base: #8795a8;
   justify-content: space-evenly;
   height: 30%;
 }
+// link tag, change font style
 .WhmLink {
   display: flex;
   padding: 2vw;
@@ -76,6 +81,7 @@ $base: #8795a8;
   justify-content: space-evenly;
   align-items: center;
 }
+// icon
 .WhmListPDiv {
   width: 32px;
   height: 32px;

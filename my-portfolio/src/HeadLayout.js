@@ -53,13 +53,13 @@ const HeadLayout = () => {
     width: 300px;
   `;
   const OtherContent = styled.button`
-    // 다른 페이지
+    // 다른 페이지, 기본
     background: ${(props) => props.color || "none"};
     font-size: 1rem;
     border: hidden;
     height: 3vh;
     border-radius: 15px;
-
+    // 마우스 올라갈땐 노반색
     &:hover {
       background: #fcd201;
     }

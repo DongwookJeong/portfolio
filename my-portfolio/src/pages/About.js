@@ -7,11 +7,13 @@ $base: #8795a8;
 add: #236144
 */
 
+// about page background
 const AboutMain = styled.div`
   background: #3359ad;
   text-align: center;
   height: inherit;
 `;
+// page title
 const Head = styled.h1`
   margin: 0;
   width: inherit;
@@ -20,14 +22,13 @@ const Head = styled.h1`
   align-items: center;
   font-size: 4rem;
 `;
+// name
 const Name = styled.h2`
   font-size: 3rem;
 `;
-
 const Detail = styled.div`
   font-size: 1rem;
 `;
-
 const BirthAndResidence = styled.ul`
   margin: 0;
   padding: 0;
