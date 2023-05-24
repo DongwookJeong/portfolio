@@ -6,19 +6,19 @@ const ProjectMain = styled.div`
   background: #236144;
   height: inherit;
 `;
-
-const Project = () => {
-  //const { id } = useParams();
-
-  return (
-    <ProjectMain>
-      {ProjectData.data.map((p) => (
-        <div key={p.id}>
-          <h2>{p.title}</h2>
-          <p>{p.description}</p>
-        </div>
-      ))}
-    </ProjectMain>
-  );
+const Project = ({ id }) => {
+  const pick = ProjectData.filter((item) => {
+    if (id === item.id) {
+    }
+    return item;
+  }).map((item) => {
+    return (
+      <ProjectMain key={item.id}>
+        <h2>{item.id}</h2>
+        <p></p>
+      </ProjectMain>
+    );
+  });
+  return <div>{pick}</div>;
 };
 export default Project;

@@ -22,10 +22,10 @@ const LinkStyle = {
 const Projects = () => {
   return (
     <ProjectsMain>
-      {ProjectData.data.map((id) => (
-        <ListStyle key={id}>
-          <Link style={LinkStyle} to="/project">
-            {id.title}
+      {ProjectData.data.map((data) => (
+        <ListStyle>
+          <Link style={LinkStyle} to="/Project">
+            {data.title}
           </Link>
         </ListStyle>
       ))}
