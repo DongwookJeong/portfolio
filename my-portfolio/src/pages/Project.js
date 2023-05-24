@@ -1,18 +1,24 @@
-import { useParams } from "react-router-dom";
+//import { useParams } from "react-router-dom";
 import { styled } from "styled-components";
+import ProjectData from "../localdb/ProjectData.json";
+
 const ProjectMain = styled.div`
   background: #236144;
   height: inherit;
 `;
+
 const Project = () => {
-  const { id } = useParams();
+  //const { id } = useParams();
 
   return (
     <ProjectMain>
-      <h2>PROJECT {id}</h2>
-      <p>설명</p>
+      {ProjectData.data.map((id) => (
+        <div>
+          <h2>{id.title}</h2>
+          <p>{id.description}</p>
+        </div>
+      ))}
     </ProjectMain>
   );
 };
-
 export default Project;
