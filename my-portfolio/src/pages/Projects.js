@@ -1,3 +1,4 @@
+//import { Link } from "react-router-dom";
 import { Link } from "react-router-dom";
 import styled from "styled-components";
 import ProjectData from "../localdb/ProjectData.json";
@@ -23,7 +24,7 @@ const Projects = () => {
     <ProjectsMain>
       {ProjectData.data.map((id) => (
         <ListStyle key={id}>
-          <Link style={LinkStyle} to="/projects/1">
+          <Link style={LinkStyle} to="/project">
             {id.title}
           </Link>
         </ListStyle>

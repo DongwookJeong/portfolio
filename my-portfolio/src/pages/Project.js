@@ -12,10 +12,10 @@ const Project = () => {
 
   return (
     <ProjectMain>
-      {ProjectData.data.map((id) => (
-        <div>
-          <h2>{id.title}</h2>
-          <p>{id.description}</p>
+      {ProjectData.data.map((p) => (
+        <div key={p.id}>
+          <h2>{p.title}</h2>
+          <p>{p.description}</p>
         </div>
       ))}
     </ProjectMain>

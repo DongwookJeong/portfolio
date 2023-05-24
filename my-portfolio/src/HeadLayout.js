@@ -110,7 +110,7 @@ const HeadLayout = () => {
         <Outlet />
       </main>
 
-      <Footer></Footer>
+      <Footer>jactor</Footer>
     </div>
   );
 };
