@@ -7,18 +7,20 @@ const ProjectMain = styled.div`
   height: inherit;
 `;
 const Project = ({ id }) => {
-  const pick = ProjectData.filter((item) => {
-    if (id === item.id) {
-    }
-    return item;
-  }).map((item) => {
-    return (
-      <ProjectMain key={item.id}>
-        <h2>{item.id}</h2>
-        <p></p>
-      </ProjectMain>
-    );
-  });
+  const pick = ProjectData.data
+    .filter((item) => {
+      if (id === item.id) {
+      }
+      return item;
+    })
+    .map((item) => {
+      return (
+        <ProjectMain key={item}>
+          <h2>{item.title}</h2>
+          <p>{item.description}</p>
+        </ProjectMain>
+      );
+    });
   return <div>{pick}</div>;
 };
 export default Project;
