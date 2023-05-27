@@ -5,6 +5,7 @@ import Contect from "./pages/Contect";
 import HeadLayout from "./HeadLayout";
 import Project from "./pages/Project";
 import Projects from "./pages/Projects";
+
 const App = () => {
   return (
     <Routes>

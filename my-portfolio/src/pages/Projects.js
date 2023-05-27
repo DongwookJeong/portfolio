@@ -24,7 +24,7 @@ const Projects = () => {
     <ProjectsMain>
       {ProjectData.data.map((data) => (
         <ListStyle>
-          <Link style={LinkStyle} to="/Project">
+          <Link style={LinkStyle} to="/project">
             {data.title}
           </Link>
         </ListStyle>
