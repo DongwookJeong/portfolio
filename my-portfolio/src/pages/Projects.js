@@ -1,5 +1,5 @@
 //import { Link } from "react-router-dom";
-import { NavLink } from "react-router-dom";
+import { Link } from "react-router-dom";
 import styled from "styled-components";
 import ProjectData from "../localdb/ProjectData";
 // ! 태그 스타일링 부분
@@ -17,10 +17,10 @@ const Projects = () => {
   return (
     <ProjectsMain>
       <li>
-        <NavLink to="/project/1">{ProjectData.project1.name}</NavLink>
+        <Link to="/Flower">{ProjectData.project1.name}</Link>
       </li>
       <li>
-        <NavLink to="/project/2">{ProjectData.project2.name}</NavLink>
+        <Link to="/Sisyphus">{ProjectData.project2.name}</Link>
       </li>
     </ProjectsMain>
   );
