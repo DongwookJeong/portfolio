@@ -10,9 +10,6 @@ const Warehouse = {
     github: "https://github.com/DongwookJeong",
     email: "nolhoon211@gmail.com",
     phone: "010-2826-5879",
-    pj1: "https://github.com/DongwookJeong",
-    pj2: "https://github.com/DongwookJeong/portfolio/commit/cc6a6da839e3d6c3188b4024b8c59c25112dbe21",
-    pj3: "https://github.com/DongwookJeong",
   },
 };
 

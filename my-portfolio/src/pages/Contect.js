@@ -1,4 +1,4 @@
-import Warehouse from "../Warehouse";
+import Warehouse from "../localdb/Warehouse";
 import styled from "styled-components";
 
 // contect page

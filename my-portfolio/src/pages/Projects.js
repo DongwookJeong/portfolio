@@ -1,7 +1,8 @@
 //import { Link } from "react-router-dom";
-import { Link } from "react-router-dom";
+import { NavLink } from "react-router-dom";
 import styled from "styled-components";
-import ProjectData from "../localdb/ProjectData.json";
+import ProjectData from "../localdb/ProjectData";
+// ! 태그 스타일링 부분
 /*
 $main: #fcd201;
 $sub: #3359ad;
@@ -12,23 +13,15 @@ const ProjectsMain = styled.ul`
   height: inherit;
 `;
 
-const ListStyle = styled.li`
-  list-style: none;
-`;
-
-const LinkStyle = {
-  textDecoration: "none",
-};
 const Projects = () => {
   return (
     <ProjectsMain>
-      {ProjectData.data.map((data) => (
-        <ListStyle>
-          <Link style={LinkStyle} to="/project">
-            {data.title}
-          </Link>
-        </ListStyle>
-      ))}
+      <li>
+        <NavLink to="/project/1">{ProjectData.project1.name}</NavLink>
+      </li>
+      <li>
+        <NavLink to="/project/2">{ProjectData.project2.name}</NavLink>
+      </li>
     </ProjectsMain>
   );
 };
