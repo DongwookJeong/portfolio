@@ -5,7 +5,7 @@ const ProjectData = {
     github: "https://github.com/DongwookJeong/flower_portfolio",
   },
   project2: {
-    name: "시지프스 형벌",
+    name: "시지프스의 형벌",
     description: "브라우저창 좌표를 활용한 간단한 게임",
     github: "https://github.com/DongwookJeong/sisyphus_portfolio",
   },

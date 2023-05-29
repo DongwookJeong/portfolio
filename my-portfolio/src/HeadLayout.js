@@ -38,6 +38,11 @@ const HeadLayout = () => {
     background: none;
     margin: 1rem;
     border: hidden;
+    transition: transform 0.5s linear;
+
+    &:hover {
+      transform: rotate(180deg);
+    }
   `;
 
   const Circle = styled.div`
