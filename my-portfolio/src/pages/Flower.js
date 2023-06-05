@@ -11,7 +11,8 @@ const Flower = () => {
       <div>
         <h2>{ProjectData.project1.name}</h2>
         <p>{ProjectData.project1.description}</p>
-        <p>{ProjectData.project1.github}</p>
+        <p>프로젝트 github: {ProjectData.project1.github}</p>
+        <p>프로젝트 과정: {ProjectData.project1.notion}</p>
       </div>
     </FlowerMain>
   );
